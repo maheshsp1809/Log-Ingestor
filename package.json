@@ -1,0 +1,26 @@
+{
+  "name": "log-ingestor",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "kafkajs": "^2.2.4",
+    "prisma": "^5.6.0",
+    "prom-client": "^15.0.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.6.0",
+    "@types/node": "^20.9.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
